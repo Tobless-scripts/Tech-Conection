@@ -133,7 +133,7 @@ function App() {
                                                             )
                                                         }
                                                         className="absolute top-2 right-2 p-1 text-gray-400 hover:text-red-500 transition cursor-pointer"
-                                                        title="Unmatch"
+                                                        title="Remove"
                                                     >
                                                         <X size={16} />
                                                     </button>
