@@ -85,14 +85,14 @@ function App() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-            <main className="max-w-6xl mx-auto px-4 py-8 sm:py-12">
-                <h1 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 mb-8">
+            <main className="mx-auto px-6 py-8 md:px-12 sm:py-12">
+                <h1 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r sticky top-10 max-h-fit from-indigo-600 to-purple-600 mb-8">
                     Tech Connection Hub
                 </h1>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    <div className="lg:col-span-1">
-                        <div className="bg-white rounded-xl shadow-md p-6 sticky top-6">
+                    <div className="lg:col-span-1 sticky top-28 max-h-fit">
+                        <div className="bg-white rounded-xl shadow-md p-6">
                             <SkillForm
                                 onSubmit={handleUserUpdate}
                                 initialUser={currentUser}
